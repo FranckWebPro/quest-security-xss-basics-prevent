@@ -47,7 +47,8 @@
         input.addEventListener("input", updateValue);
 
         function updateValue(e) {
-            log.innerHTML = e.target.value;
+            //replaced innerHTML by innerText
+            log.innerText = e.target.value;
         }
 
     </script>
